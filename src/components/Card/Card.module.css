@@ -1,0 +1,74 @@
+.card{
+    width: 250px;
+    margin: 1em;
+    height: 300px;
+    border: 1px solid #75DB2E;
+    border-radius: 5px;
+    -webkit-box-shadow: 32px 21px 59px -36px rgba(117,219,46,0.83);
+    -moz-box-shadow: 32px 21px 59px -36px rgba(117,219,46,0.83);
+    box-shadow: 32px 21px 59px -36px rgba(117,219,46,0.83);
+    }
+
+.card-img{
+    position: relative;
+
+    
+}
+
+img{width: 100%;
+    object-fit:fill;
+
+    border-radius: 5px 5px 0px 0px;
+}
+
+.btn{
+    width: 25px;
+    padding: 0.6em;
+    font-size: 0.8em;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: black;
+    color: #75DB2E;
+    border: none;
+    position: absolute;
+    transform: translate(-164%, 0%);
+    border-radius: 0px 3px 0px 5px;
+    transition:  0.8s ease;
+
+ }
+
+ .btn:hover{
+    background-color: #75DB2E;
+    color: black;
+    border: none;
+    
+ }
+
+ .name {
+     width: 250px;
+     background-color: #75DB2E;
+     letter-spacing: 0.1em;
+     text-align: center;
+     font-size: 1.3rem;
+     position: absolute;
+    transform: translate(0%, -150%);
+
+    
+
+}
+
+.cardText{
+    background-color: black;
+    border-bottom: 1px solid #75DB2E;
+    margin-top: -0.25rem;
+    color:#75DB2E;
+    padding: 0rem;
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius:0px 0px 5px 5px;
+}

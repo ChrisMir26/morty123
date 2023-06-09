@@ -1,0 +1,42 @@
+form{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2em;
+    background-image: url(../image/_.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+
+
+
+}
+
+.formImgCtn{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+
+.formText{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.inputTextPassword{
+    margin-top: 0.5em
+}
+
+
+
+
+
+.submit{
+    margin: 1em 0;
+}
+
+.Error{
+    color: red;
+}

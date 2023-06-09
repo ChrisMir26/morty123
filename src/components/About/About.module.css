@@ -1,0 +1,50 @@
+.cardAbout{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    
+}
+
+.cardTextAbout{
+    margin: 2em;
+    text-align: left;
+    width: 50%;
+    color:#75DB2E;
+    background-color: rgba(0, 0, 0, 0.9); /* Opacidad del 50% */
+    border: 1px solid #75DB2E;;  
+    padding: 1.1rem;
+    box-shadow: 32px 21px 59px -36px rgba(117,219,46,0.83);
+    border-radius: 25px;
+}
+
+h1{
+    margin: 1em;
+    font-size: 2.2rem;
+    letter-spacing: 0.1em;
+}
+
+p{
+    letter-spacing: 0.1em;
+    line-height: 1.6;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+
+   .cardImgAboutCnt{
+    width: 400px;
+    height: 400px;
+    }
+
+.cardImgAbout{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 2em;
+    margin-left:  4em;
+    border-radius: 50%;
+    border: 1px solid #75DB2E;
+    box-shadow: 32px 21px 59px -36px rgba(117,219,46,0.83);
+
+
+}

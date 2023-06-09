@@ -1,0 +1,42 @@
+.detail{
+    display: flex;
+    height: 727px;
+
+
+}
+
+.detailText{
+    width: 50%;
+    padding-left:  0em;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+
+
+
+
+}
+.characterH1, .characterH3{
+    color: #75DB2E;
+    font-size: 3em;
+    margin: 1em 0;
+    letter-spacing: 0.2em;
+}
+.characterH1{
+    border-bottom: 1px solid #75DB2E;
+    padding-bottom: 1em;
+    margin-bottom: 1.5em;
+}
+
+.detailImgCnt{
+    width: 50%;
+    height: 700px;
+    margin-top: 4em;
+}
+
+.detailImg{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
